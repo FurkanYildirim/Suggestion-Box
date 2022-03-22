@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suggestion Box Example">
+    <meta name="author" content="F. Y.">
+    <title>Suggestion Box</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- These links (FontAwesome & Google) are used for Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>SUGGESTION BOX</header>
+        <form action="#">
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="name" placeholder="Enter Your Name">
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Enter Your Email">
+              <i class='fas fa-envelope'></i>
+            </div>
+          </div>
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="phone" placeholder="Enter Your Phone Number">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="website" placeholder="Enter Your Website">
+              <i class='fas fa-globe'></i>
+            </div>
+          </div>
+          <div class="message">
+            <textarea placeholder="Write Your Suggestion..." name="message"></textarea>
+            <i class="material-icons">message</i>
+          </div>
+          <div class="button-area">
+            <button type="submit">SEND</button>
+            <span></span>
+          </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
